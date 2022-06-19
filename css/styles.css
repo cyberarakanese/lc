@@ -1,3 +1,11 @@
+.footer-muya-logo {width:3.5em;}
+
+
+
+
+
+
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Clean Blog v6.0.8 (https://startbootstrap.com/theme/clean-blog)
@@ -11216,13 +11224,14 @@ header.masthead .site-heading .h1 {
   text-align: center;
 }
 
-.post-preview > a {
-  color: #212529;
-}
-.post-preview > a:focus, .post-preview > a:hover {
-  text-decoration: none;
-  color: #0085A1;
-}
+
+
+.win10-post-preview > a:hover { color:#66ccff;text-decoration: none;}
+.word-post-preview > a:hover { color:#006a81;text-decoration: none;}
+.excel-post-preview > a:hover { color:#00e600;text-decoration: none;}
+.powerpnt-post-preview > a:hover { color:#ff5500;text-decoration: none;}
+.mspub-post-preview >a:hover { color:#00cc99;text-decoration: none;}
+
 .post-preview > a > .post-title {
   font-size: 1.875rem;
   margin-top: 1.875rem;
